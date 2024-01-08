@@ -1,0 +1,304 @@
+
+
+.line1{
+    position: relative;
+    width:3px;
+    height:670px;
+    background-color: rgb(5, 72, 117);
+    box-shadow: 1px 1px 12px 3px rgb(27, 162, 220);
+    left:50px;
+    top:30px;
+}
+.line2{
+    position: absolute;
+    width:3px;
+    height:670px;
+    background-color: rgb(118, 8, 105);
+    box-shadow: 1px 1px 12px 3px rgb(222, 10, 222);
+    left:30px;
+    bottom:100px;
+}
+.line3{
+    position: absolute;
+    width:530px;
+    height:3px;
+    background-color: rgb(137, 6, 10);
+    box-shadow: 1px 1px 12px 3px rgb(229, 39, 73);
+    left:50px;
+    top:20px;
+}
+.line4 {
+    position: absolute;
+    width:500px;
+    height:3px;
+    background-color: rgb(137, 6, 10);
+    box-shadow: 1px 1px 12px 3px rgb(229, 39, 73);
+    left:950px;
+    top:20px;
+}
+
+.line5{
+    position: absolute;
+    width:3px;
+    height:670px;
+    background-color: rgb(118, 8, 105);
+    box-shadow: 1px 1px 12px 3px rgb(222, 10, 222);
+    right:50px;
+    top:40px;
+}
+.line6{
+    position: absolute;
+    width:3px;
+    height:670px;
+    background-color: rgb(5, 72, 117);
+    box-shadow: 1px 1px 12px 3px rgb(27, 162, 220);
+   right:30px;
+   top:-10px;
+}
+.head1{
+    position: absolute;
+    color: rgb(133, 132, 131);
+    left:580px;
+    top:-30px;
+    font-size:40px;
+    width:350px;
+    padding: 10px;
+    text-align:center;
+    box-shadow: 1px 1px 12px 3px rgb(128, 129, 129);
+}
+
+.rolldice{
+    animation: myAnim2 2s ease 0s 1 normal forwards;}
+    @keyframes myAnim2 {
+        0% {
+            transform: scaleX(0);
+        }
+    
+        100% {
+            transform: scaleX(1);
+        }
+    }
+.play1{
+    position: absolute;
+    padding: 5px;
+    top:100px;
+    left:170px;
+    color: rgb(247, 243, 243);
+    box-shadow: 1px 1px 12px 3px rgb(199, 5, 57);
+}
+.anima1{
+    animation: myAnim 2s ease 0s 1 normal forwards;}
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-75px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-30px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(10);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-13px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
+.dice1{
+    position: absolute;
+    top:250px;
+    left:180px;
+    box-shadow:1px 1px 12px 3px rgb(89, 110, 246);
+}
+.animaB{animation: myAnimA 4s ease 0s 1 normal forwards; animation: iteration count 4px;}
+@keyframes myAnimA {
+	0% {
+		transform: rotate(0);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+.dice2{
+    position: absolute;
+    top:250px;
+    right:180px;
+    box-shadow:1px 1px 12px 3px rgb(89, 110, 246);
+
+}
+#output1{
+    position: absolute;
+    top:400px;
+    left: 200px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 12px 3px rgb(4, 79, 154);
+}
+/*winner*/
+#winner{
+    position: absolute;
+    top:70px;
+    left:620px;
+    padding:10px;
+    color: rgb(255, 255, 255);
+    font-size:30px; 
+    background: linear-gradient(45deg, rgb(173, 4, 4),rgb(214, 10, 44), rgb(4, 121, 168)); 
+}
+.animation{
+    animation: myAnim3 3s ease-in 0s 1 normal forwards; animation-iteration-count: infinite;
+}
+@keyframes myAnim3 {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+.play2{
+    position: absolute;
+    top:100px;
+    right:170px;
+    padding:5px;
+    color: rgb(247, 243, 243);
+    box-shadow: 1px 1px 12px 3px rgb(27, 162, 220);
+}
+.anima2{
+    animation: myAnim 2s ease 0s 1 normal forwards; 
+}
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-75px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-30px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(10);
+	}
+
+}
+#output2{
+        position: absolute;
+        top:400px;
+        right:200px;
+        color: aliceblue;
+        background-color:black ;
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+        box-shadow: 1px 1px 12px 3px rgb(199, 5, 57);
+    
+    }
+.bttn1{
+    position: absolute;
+    left:240px;
+    top:550px;
+    background-color: rgb(12, 12, 13);
+    color: azure;
+    border-radius: 40px;
+    font-size: 30px;
+    width: 150px;
+    box-shadow: 1px 1px 12px 3px rgb(84, 84, 84);
+}
+.color1:hover{
+    box-shadow: inset 1px 1px 12px 3px rgb(64, 64, 64);
+}
+.dice0{
+    position: absolute;
+    left:680px;
+    top:350px;
+
+}
+.ani{animation-name: bounce;
+    animation-duration: 3s;   
+   animation-iteration-count: infinite;
+   animation-timing-function: ease; 
+   animation-delay: 3s;
+   }
+   @keyframes bounce{
+    50%{
+      transform:translateY(60px)
+    }
+    150%{
+      transform:translateY(10px)
+    }
+}
+.goku{
+    position: absolute;
+    left:450px;
+    top:70px;
+    opacity:0.8;
+    overflow-y: hidden;
+}
+   
